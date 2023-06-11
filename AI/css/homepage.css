@@ -1,0 +1,205 @@
+/***************SECTION-FEATURE********************/
+
+.section-feature {
+  margin-top: 16rem;
+}
+
+.heading-secondary {
+  gap: 2.4rem;
+}
+
+.feature-cards {
+  margin-top: 8rem;
+  gap: 2.4rem;
+}
+
+.feature-card {
+  border: 0.1rem solid #525252;
+  border-radius: 1.6rem;
+  padding: 8rem 4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.icon-feature {
+  font-size: 8rem;
+}
+
+.feature-card .description-small {
+  color: #f2f2f2;
+}
+
+/***************SECTION-TESTMONIAL****************/
+
+.section-testmonial {
+  margin-top: 16rem;
+}
+
+.partners-box {
+  margin-top: 8rem;
+  position: relative;
+}
+
+.img-partners-box-top,
+.img-partners-box-bottom {
+  display: flex;
+  justify-content: space-around;
+  overflow: scroll;
+}
+
+.img-partners-box-top img,
+.img-partners-box-bottom img {
+  width: 16rem;
+}
+
+.partners-box:before,
+.partners-box:before {
+  content: "";
+  width: 19.6rem;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.991615) 11.79%,
+    rgba(0, 0, 0, 0.967585) 21.38%,
+    rgba(0, 0, 0, 0.9296) 29.12%,
+    rgba(0, 0, 0, 0.879348) 35.34%,
+    rgba(0, 0, 0, 0.818519) 40.37%,
+    rgba(0, 0, 0, 0.7488) 44.56%,
+    rgba(0, 0, 0, 0.671881) 48.24%,
+    rgba(0, 0, 0, 0.589452) 51.76%,
+    rgba(0, 0, 0, 0.5032) 55.44%,
+    rgba(0, 0, 0, 0.414815) 59.63%,
+    rgba(0, 0, 0, 0.325985) 64.66%,
+    rgba(0, 0, 0, 0.2384) 70.88%,
+    rgba(0, 0, 0, 0.153748) 78.62%,
+    rgba(0, 0, 0, 0.0737185) 88.21%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.partners-box:after,
+.partners-box:after {
+  content: "";
+  width: 19.6rem;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(
+    90deg,
+    #000000 0%,
+    rgba(0, 0, 0, 0.991615) 11.79%,
+    rgba(0, 0, 0, 0.967585) 21.38%,
+    rgba(0, 0, 0, 0.9296) 29.12%,
+    rgba(0, 0, 0, 0.879348) 35.34%,
+    rgba(0, 0, 0, 0.818519) 40.37%,
+    rgba(0, 0, 0, 0.7488) 44.56%,
+    rgba(0, 0, 0, 0.671881) 48.24%,
+    rgba(0, 0, 0, 0.589452) 51.76%,
+    rgba(0, 0, 0, 0.5032) 55.44%,
+    rgba(0, 0, 0, 0.414815) 59.63%,
+    rgba(0, 0, 0, 0.325985) 64.66%,
+    rgba(0, 0, 0, 0.2384) 70.88%,
+    rgba(0, 0, 0, 0.153748) 78.62%,
+    rgba(0, 0, 0, 0.0737185) 88.21%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  transform: rotate(-180deg);
+}
+
+.testmonials-box {
+  margin-top: 16rem;
+}
+
+.testmonial-cards {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.testmonial-card {
+  width: 38rem;
+  height: 40rem;
+  padding: 4rem;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 1.6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.testmonial-comment {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.rating-box {
+  width: 8rem;
+  height: 1.6rem;
+  margin-bottom: 1.2rem;
+
+  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023web-camp/icons/star.png");
+}
+
+.user-comment,
+.user-company {
+  color: #f2f2f2;
+}
+
+.user-info {
+  display: flex;
+  gap: 1.6rem;
+  text-align: left;
+}
+
+.check-box {
+  height: 1rem;
+  text-align: center;
+  margin-top: 2.4rem;
+
+  display: none;
+}
+
+.check-btn {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: #525252;
+}
+
+.check-btn:not(:first-child) {
+  margin-left: 0.8rem;
+}
+
+.check-btn-on {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #f2f2f2;
+}
+
+/*********SECTION-CTA***********/
+
+.section-cta {
+  margin: 8rem auto 0 auto;
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.header-cta {
+  margin-bottom: 6rem;
+}
+
+.btn-cta-2 {
+  line-height: 20px;
+}
+
+.icon-call-made {
+  vertical-align: bottom;
+}
